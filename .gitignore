@@ -1,0 +1,14 @@
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+build/
+*.o
+*.out
+*.cgen
+*.exe
+*.c~
+*.swp
+*~
+run
+test

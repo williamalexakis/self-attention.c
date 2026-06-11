@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(self-attention.c LANGUAGES C)
+
+include(GNUInstallDirs)
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+file(GLOB SRC_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/*.c")
+
+add_executable(${PROJECT_NAME} ${SRC_FILES})
+
+if(NOT MSVC)
+    target_compile_options(${PROJECT_NAME} PRIVATE -Wextra -Wall)
+else()
+    target_compile_options(${PROJECT_NAME} PRIVATE /W4)
+endif()
+
+if(UNIX)
+    target_compile_definitions(${PROJECT_NAME} PRIVATE _POSIX_C_SOURCE=200809L)
+endif()
+
+set_target_properties(${PROJECT_NAME} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
+)
