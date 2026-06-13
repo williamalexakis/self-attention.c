@@ -1,6 +1,6 @@
 # self-attention.c
 
-This is an implementation of scaled dot-product self-attention written in C, meant for my essay [Self-Attention, From First Principles](https://williamalexakis.com/attention-from-scratch).
+This is an implementation of scaled dot-product self-attention written in C.
 
 ### Building
 ```bash
