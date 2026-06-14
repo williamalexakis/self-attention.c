@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 440 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Graph showing vectors v_1 and v_2 with coordinate projections and the perpendicular drop of v_2 onto v_1">
+                        <defs>
+                            <marker id="vec-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="#e6edf3"/>
+                            </marker>
+                            <marker id="axis-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                                <path d="M 0 0 L 10 5 L 0 10 z" fill="#e6edf3"/>
+                            </marker>
+                        </defs>
+
+                        <line x1="55" y1="290" x2="420" y2="290" stroke="#e6edf3" stroke-width="1" marker-end="url(#axis-arrow)"/>
+                        <line x1="55" y1="290" x2="55" y2="25" stroke="#e6edf3" stroke-width="1" marker-end="url(#axis-arrow)"/>
+
+                        <text x="425" y="295" font-family="KaTeX_Math, 'IBM Plex Serif', serif" font-style="italic" font-size="17" fill="#e6edf3">x</text>
+                        <text x="48" y="22" font-family="KaTeX_Math, 'IBM Plex Serif', serif" font-style="italic" font-size="17" fill="#e6edf3">y</text>
+
+                        <line x1="205" y1="287" x2="205" y2="293" stroke="#e6edf3" stroke-width="1"/>
+                        <line x1="255" y1="287" x2="255" y2="293" stroke="#e6edf3" stroke-width="1"/>
+                        <line x1="52" y1="90" x2="58" y2="90" stroke="#e6edf3" stroke-width="1"/>
+                        <line x1="52" y1="140" x2="58" y2="140" stroke="#e6edf3" stroke-width="1"/>
+
+                        <text x="205" y="310" text-anchor="middle" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-size="13" fill="#e6edf3">3</text>
+                        <text x="255" y="310" text-anchor="middle" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-size="13" fill="#e6edf3">4</text>
+                        <text x="45" y="95" text-anchor="end" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-size="13" fill="#e6edf3">4</text>
+                        <text x="45" y="145" text-anchor="end" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-size="13" fill="#e6edf3">3</text>
+
+                        <line x1="205" y1="90" x2="205" y2="290" stroke="#e6edf3" stroke-width="0.9" stroke-dasharray="1 4" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="205" y1="90" x2="55" y2="90" stroke="#e6edf3" stroke-width="0.9" stroke-dasharray="1 4" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="255" y1="140" x2="255" y2="290" stroke="#e6edf3" stroke-width="0.9" stroke-dasharray="1 4" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="255" y1="140" x2="55" y2="140" stroke="#e6edf3" stroke-width="0.9" stroke-dasharray="1 4" stroke-linecap="round" opacity="0.5"/>
+
+                        <line x1="255" y1="140" x2="199" y2="98" stroke="#e6edf3" stroke-width="1.5" stroke-dasharray="6 2" opacity="1"/>
+                        <path d="M 193 106 L 201 112 L 207 104" fill="none" stroke="#e6edf3" stroke-width="1.5" opacity="1"/>
+
+                        <line x1="227" y1="119" x2="304" y2="80" stroke="#e6edf3" stroke-width="0.7" opacity="0.55"/>
+                        <text x="309" y="84" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-size="15" fill="#e6edf3"><tspan font-weight="700">v</tspan><tspan font-size="11" font-weight="400" dy="3">1</tspan><tspan dy="-3"> ⋅ </tspan><tspan font-weight="700">v</tspan><tspan font-size="11" font-weight="400" dy="3">2</tspan><tspan dy="-3"> = 24</tspan></text>
+
+                        <line x1="55" y1="290" x2="205" y2="90" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#vec-arrow)"/>
+
+                        <line x1="55" y1="290" x2="255" y2="140" stroke="#e6edf3" stroke-width="1.6" marker-end="url(#vec-arrow)"/>
+
+                        <path d="M 91 263 A 45 45 0 0 0 82 256" fill="none" stroke="#e6edf3" stroke-width="1"/>
+
+                        <text x="212" y="82" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-weight="700" font-size="19" fill="#e6edf3">v<tspan font-size="13" dy="4" font-weight="400">1</tspan></text>
+                        <text x="262" y="138" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-weight="700" font-size="19" fill="#e6edf3">v<tspan font-size="13" dy="4" font-weight="400">2</tspan></text>
+                        <text x="100" y="270" font-family="KaTeX_Main, 'IBM Plex Serif', serif" font-size="14" fill="#e6edf3">16.3°</text>
+                    </svg>
